@@ -1,6 +1,6 @@
 Locales ['en'] = {
-	['title']					= '^3Vehicle Locks : ',
-	['unlocked'] 				= '^2Unlocked^7',
-	['locked'] 					= '^1Locked^7',
-	['doublelock']				= '^1Double Locked^7',
+	['title']					= '~p~Vehicle Locks : ~s~',
+	['unlocked'] 				= '~g~Unlocked~s~',
+	['locked'] 					= '~o~Locked~s~',
+	['doublelock']				= '~b~~h~Double Locked~s~',
 }
