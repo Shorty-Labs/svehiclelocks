@@ -188,7 +188,7 @@ AddEventHandler('shorty_slocks:setvehicleLock', function(plate, lockstatus, call
 				end
 
 				if owner and Config.notifca then
-					TriggerEvent('chat:addMessage', { args = { _U('title'), message } })
+					ESX.ShowNotification(_U('title') ..message )
 				end
 
 			end
