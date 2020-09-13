@@ -12,8 +12,12 @@ end)
 
 AddEventHandler('onResourceStart', function(resource)
 	if resource == GetCurrentResourceName() then
-		while not SQLReady do Wait(0) end		
-		getvehiclesList()
+		Citizen.CreateThread(function()
+			while true do
+				Citizen.Wait(300000)
+				getvehiclesList()
+			end
+		end)
 	end
 end)
 
