@@ -1,5 +1,7 @@
 # Synced Vehicle Locks
 
+Version 1.0.5 - Update 16/09/2020
+
 Version 1.0.4 - Update 20/04/2020
 
 Version 1.0.3 - Patch 18/04/2020
@@ -112,7 +114,11 @@ Server synced lock system with lock all spawned vehicles
 	add	start svehiclelocks to server.cfg
 
 -- [[ Patch Notes ]] --
-	
+
+	1.0.5
+	Sync all cars plates with owner of the plates for the bug fix in
+	5 min for any bug in cardelear purchase.
+
 	1.0.4
 	Added Option to call from a Menu System
 	Added Rented Vehicles based on plate in Config Default 'RENT'
