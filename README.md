@@ -1,4 +1,6 @@
 # Synced Vehicle Locks
+this script modifed by electwix.
+THIS IS NOT ORGINAL SCRIPT.
 
 Version 1.0.5 - Update 16/09/2020
 
