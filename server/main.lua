@@ -156,7 +156,7 @@ getvehiclesList = function()
 		if #result > 0 then
 			for i = 1, #result do
 				local plateStripped = string.gsub(result[i].plate, "%s+", "")
-				vehicle_data[plateStripped] = { owner = result[i].owner, lockstatus = Config.defLock }
+				vehicle_data[plateStripped] = { owner = result[i].owner }
 			end
 		end
 	end)
@@ -165,7 +165,7 @@ getvehiclesList = function()
 		if #result > 0 then
 			for i = 1, #result do
 				local plateStripped = string.gsub(result[i].plate, "%s+", "")
-				vehicle_data[plateStripped] = { owner = result[i].owner, lockstatus = Config.defLock }
+				vehicle_data[plateStripped] = { owner = result[i].owner }
 			end
 		end
 	end)	
